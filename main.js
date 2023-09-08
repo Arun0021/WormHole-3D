@@ -35,7 +35,8 @@ const sphere = new THREE.Mesh(
     fragmentShader,
     uniforms:{
       globeTexture:{
-        value:new THREE.TextureLoader().load('./img/worm.jpg')
+        //value:new THREE.TextureLoader().load('./img/worm.jpg')
+        value:new THREE.TextureLoader().load('https://i.imgur.com/tvk4kxR.jpg')
       }
     }
   
